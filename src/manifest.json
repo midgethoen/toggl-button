@@ -9,7 +9,7 @@
       "scripts/vendor/bugsnag-3.min.js",
       "scripts/lib.js",
       "scripts/db.js",
-      "scripts/ga.js",
+      // "scripts/ga.js",
       "scripts/background.js"
     ]
   },

@@ -23,7 +23,10 @@ togglbutton.render(
     //   description = numElem.textContent.split(" ").pop().trim() + " " + description;
     // }
     if (crossProjectReferenceElem !== null) {
-      description = crossProjectReferenceElem.textContent + ' ' + description;
+      description =
+        crossProjectReferenceElem.textContent.replace(/\s/g, '') +
+        ' ' +
+        description;
     }
 
     link = togglbutton.createTimerLink({
